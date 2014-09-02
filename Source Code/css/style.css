@@ -1,0 +1,883 @@
+
+
+/* jquery old version FEW styles that needs to be overriden */
+
+
+
+.ui-btn-icon-left >.ui-btn-inner > .ui-icon, .ui-btn-icon-right > .ui-btn-inner > .ui-icon {
+	position:absolute;
+	top:50%;
+	margin-top:-9px
+}
+.ui-btn-icon-top .ui-btn-inner .ui-icon, .ui-btn-icon-bottom .ui-btn-inner .ui-icon {
+	position:absolute;
+	left:50%;
+	margin-left:-9px
+}
+.ui-btn-icon-left .ui-icon {
+	left:10px
+}
+.ui-btn-icon-right .ui-icon {
+	right:10px
+}
+.ui-btn-icon-top .ui-icon {
+	top:10px
+}
+.ui-btn-icon-bottom .ui-icon {
+	top:auto;
+	bottom:10px
+}
+
+
+
+.ui-icon, .ui-icon-searchfield:after {
+	background-color:#666;
+	background-color:rgba(0, 0, 0, .4);
+	background-image:url(images/icons-18-white.png);
+	background-repeat:no-repeat;
+	-webkit-border-radius:9px;
+	border-radius:9px
+}
+.ui-icon-alt .ui-icon, .ui-icon-alt .ui-icon-searchfield:after {
+	background-color:#fff;
+	background-color:rgba(255, 255, 255, .3);
+	background-image:url(images/icons-18-black.png);
+	background-repeat:no-repeat
+}
+.ui-icon-nodisc .ui-icon, .ui-icon-nodisc .ui-icon-searchfield:after, .ui-icon-nodisc .ui-icon-alt .ui-icon, .ui-icon-nodisc .ui-icon-alt .ui-icon-searchfield:after {
+	background-color:transparent
+}
+.ui-icon-plus {
+	background-position:-1px -1px
+}
+.ui-icon-minus {
+	background-position:-37px -1px
+}
+.ui-icon-delete {
+	background-position:-73px -1px
+}
+.ui-icon-arrow-r {
+	background-position:-108px -1px
+}
+.ui-icon-arrow-l {
+	background-position:-144px -1px
+}
+.ui-icon-arrow-u {
+	background-position:-180px -1px
+}
+.ui-icon-arrow-d {
+	background-position:-216px -1px
+}
+.ui-icon-check {
+	background-position:-252px -1px
+}
+.ui-icon-gear {
+	background-position:-288px -1px
+}
+.ui-icon-refresh {
+	background-position:-323px -1px
+}
+.ui-icon-forward {
+	background-position:-360px -1px
+}
+.ui-icon-back {
+	background-position:-396px -1px
+}
+.ui-icon-grid {
+	background-position:-432px -1px
+}
+.ui-icon-star {
+	background-position:-467px -1px
+}
+.ui-icon-alert {
+	background-position:-503px -1px
+}
+.ui-icon-info {
+	background-position:-539px -1px
+}
+.ui-icon-home {
+	background-position:-575px -1px
+}
+.ui-icon-search, .ui-icon-searchfield:after {
+	background-position:-611px -1px
+}
+.ui-icon-checkbox-on {
+	background-position:-647px -1px
+}
+.ui-icon-checkbox-off {
+	background-position:-683px -1px
+}
+.ui-icon-radio-on {
+	background-position:-718px -1px
+}
+.ui-icon-radio-off {
+	background-position:-754px -1px
+}
+.ui-icon-bars {
+	background-position:-788px -1px
+}
+.ui-icon-edit {
+	background-position:-824px -1px
+}
+.ui-checkbox .ui-icon, .ui-selectmenu-list .ui-icon {
+	-webkit-border-radius:3px;
+	border-radius:3px
+}
+.ui-icon-checkbox-off, .ui-icon-radio-off {
+	background-color:transparent
+}
+.ui-checkbox-on .ui-icon, .ui-radio-on .ui-icon {
+	background-color:#4596ce
+}
+
+
+
+.ui-icon, .ui-icon-searchfield:after {
+	background-color:#666;
+	background-color:rgba(0, 0, 0, .4);
+	background-image:url(images/icons-18-white.png);
+	background-repeat:no-repeat;
+	-webkit-border-radius:9px;
+	border-radius:9px
+}
+
+
+.ui-icon-arrow-r {
+	background-position:-108px -1px
+}
+.ui-icon-arrow-l {
+	background-position:-144px -1px
+}
+.ui-icon-arrow-u {
+	background-position:-180px -1px
+}
+.ui-icon-arrow-d {
+	background-position:-216px -1px
+}
+.ui-icon {
+	width:18px;
+	height:18px
+}
+
+.ui-icon-loading {
+	background:url(images/ajax-loader.gif);
+	background-size:46px 46px
+}
+/*Custom CSS OVERRIDES. */
+
+#InvalidLoginText {
+	display: none;
+	padding: 5px; 
+	margin-bottom: 1em; 
+	font-size: 90%; 
+	text-shadow: none !important;
+}
+
+.ui-slider ui-slider-switch ui-btn-down-d ui-btn-corner-all ui-mini {
+	margin-top: 20px;
+}
+
+div.ui-input-text input {
+	padding: 0.4em !important;
+	
+}
+
+.centered , .data_not_found {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.error {
+	color:#cd0a0a; 
+	border:1px solid #cd0a0a; 
+	background: #fed7d7; 
+}
+
+.ui-block-a, .ui-block-b, .ui-block-c {
+	text-align: left;
+	font-weight: bold;
+	padding: 5px;
+}
+
+.gridView {
+	border-bottom:2px solid;
+	border-color: lightgray;
+}
+/* 
+.text-style {
+	white-space: normal;
+	word-break: break-all;
+} */
+
+.small_text {
+	font-size: 0.9em;
+	white-space: normal;
+	word-break: break-all;
+}
+
+.required_field, .error_msg {
+	color: red;
+}
+
+span, p, div {
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.form {
+	padding: 5px; 
+	margin-bottom: 1em; 
+	text-shadow: none !important;
+	border: 1px solid;
+	border-color: lightgray;
+	background: #ffffff; 
+}
+
+#RetryLoginDiv { 
+	margin: 0 auto ; 
+	padding-top: 5px; 
+	width: 100%; 
+    -ms-touch-action: none;
+}
+
+#SliderDiv {
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+
+	border: 2px solid #454545;
+	overflow: hidden;
+
+	-webkit-transition: opacity 0.4s ease-out;
+}
+
+h4 {
+	background-color: #4d4d4d;
+	color: #ffffff;
+	font-size: 110%;
+	font-weight: normal;
+   
+	-webkit-animation: slidetounlock 5s infinite;
+
+	padding: 0; 
+	margin: 0;
+}
+
+h4 img {
+	vertical-align: middle;
+}
+
+#version
+{
+	position:absolute;
+	margin: auto;
+  	left: 0;
+	bottom: 10px; 
+	right: 0;
+	color:#666666;
+}
+
+/* Loading Fonts */
+
+@font-face {
+    font-family: varelaRound;
+    src: url(../fonts/VarelaRound-Regular.otf);
+}
+
+#LoginForm .ui-input-text, .ui-input-search
+{
+	background-color:#eeeeee;
+	border-width:2px !important;
+	margin-left:35px;
+	margin-right:35px;
+}
+#LoginForm .ui-input-text
+{
+	background-color:transparent;
+}
+#AddDomainSection .ui-input-text, .ui-input-search
+{
+	margin-left:10px;
+	margin-right:13px;
+}
+#AddDomainSection
+{
+	margin-left:10px;
+	margin-right:13px;
+}
+
+#LoginForm input[placeholder], [placeholder], *[placeholder] {
+   color:#aaa !important;
+   margin-left:20px;
+   font-family:varelaRound;
+   font-size:14px;
+   width:90%;
+}
+
+.centered > p
+{
+	color:#00793e;
+	font-weight:600;
+}
+
+.buttonBig
+{
+	margin:20px;
+	margin-left:70px;
+	margin-right:70px;
+	border-radius:2px;
+}
+#Username
+{
+	background: url(../img/userImg.png) no-repeat right center;
+}
+#Password
+{
+	background: url(../img/padLock.png) no-repeat right center;
+}
+
+.ui-collapsible-themed-content >.ui-collapsible-heading
+{
+	margin-left:10px !important;
+	margin-right:10px !important;
+	margin-bottom:5px !important;
+	border:1px solid #cccccc !important;
+}
+
+
+.ui-collapsible-themed-content .ui-collapsible-content
+{
+	margin-left:10px !important;
+	margin-right:10px !important;
+	border:1px solid #ccc;
+	margin-bottom:20px;
+}
+
+ html .ui-body-a .ui-btn
+ {
+	 background-color:#FFF;
+	 border-color:none;
+	 color:#00793e;
+	 text-shadow:none;
+	 
+ }
+  .ui-li > .ui-btn-text
+ {
+	 text-align:left !important;
+	 margin-left:10px !important;
+	 margin-top:15px !important;
+	 margin-bottom:15px !important;
+	
+ }
+ 
+ .ui-li > .ui-btn-text a
+ {
+	 text-decoration:none;
+ }
+ 
+ html .ui-body-a a
+ {
+	color:#00793e;
+	text-shadow:none;	 
+ }
+
+
+/* Search Bar Home Page */
+
+#LandingAccordins input[placeholder], [placeholder], *[placeholder] {
+   color:#aaa !important;
+   margin-left:20px;
+   font-family:varelaRound;
+   font-size:14px;
+   width:90%;
+   margin-top:5px;
+   height:40px;
+  
+}
+
+#LandingAccordins .ui-input-text, .ui-input-search
+{
+	border-width:1px !important;
+	margin:0px;
+	padding:0px;
+	margin-top:-25px;
+    margin-left:-16px;
+    margin-right:-16px;
+    margin-bottom:5px;
+	background-color:white;
+}
+
+#searchBar
+{
+	background: url(../img/search.png) no-repeat right center;
+}
+
+
+.ui-collapsible-set .ui-collapsible:not(.ui-collapsible-inset) .ui-collapsible-heading .ui-btn
+{
+	border-top-width:0px;
+	border-bottom-width:0px;
+}
+
+.ui-body-b
+{
+	background-color:#eeeeee;
+	border-width:0px;
+}
+
+/* Bars icon for header. */
+.ui-icon-mybars {
+	background-image: url(../img/menubars.png);
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-color:transparent !important;
+	border:none !important;
+}
+.ui-icon-myaccount {
+	background-image: url(../img/myaccount.png);
+	background-repeat:no-repeat;
+	background-position:center 10px;
+	background-color:transparent !important;
+	border:none !important;
+}
+.ui-icon-folder {
+	background-image: url(../img/folder.png);
+	background-repeat:no-repeat;
+	background-position:center 10px;
+	background-color:transparent !important;
+	border:none !important;
+}
+.ui-icon-domains {
+	background-image: url(../img/domain.png);
+	background-repeat:no-repeat;
+	background-position:center 10px;
+	background-color:transparent !important;
+	border:none !important;
+}
+.ui-icon-signout {
+	background-image: url(../img/signout.png);
+	background-repeat:no-repeat;
+	background-position:center 10px;
+	background-color:transparent !important;
+	border:none !important;
+}
+.ui-icon-backButton {
+	background-image: url(../img/backButton.png);
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-color:transparent !important;
+	border:none !important;
+}
+.ui-icon-deleteButton {
+	background-image: url(../img/delete.png);
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-color:transparent !important;
+	border:none !important;
+}
+
+
+.ui-icon-refreshButton {
+	background-image: url(../img/refreshButton.png);
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-color:transparent !important;
+	border:none !important;
+}
+
+
+/* Theme C Overrides */
+
+html .ui-bar-c .ui-btn
+{
+	background-color:#000 !important;
+	color:#FFF;
+	text-shadow:none;
+}
+
+#allDomainsButton
+{
+}
+#UncommitedDomains
+{
+	margin-top:5px;
+}
+
+.ui-collapsible-themed-content .ui-listview:not(.ui-listview-inset)>li.ui-last-child
+{
+	border-bottom-width:1px;	
+}
+
+#RecentlyUpdatedDomainsContainer
+{
+	margin-bottom:5px;	
+}
+
+/* Left Menu Bar CSS Overrides */
+
+.ui-panel-inner>.ui-listview
+{
+	margin-top:-19px;
+	background-color:#eeeeee;
+}
+.listView >.ui-li-divider
+{
+	padding-left:20px;
+}
+
+.listView > .ui-btn
+{
+	margin-left:5px;
+	margin-right:5px;
+	margin-bottom:3px;
+	border:1px solid #ccc !important;
+}
+
+.listView a
+{
+	text-decoration:none !important;
+	margin-left:15px;
+}
+.listView .ui-btn-text
+{
+	padding-top:5px;
+}
+
+.ui-panel-inner
+{
+	border:2px solid #d9d3d3;
+}
+
+/* Domain List Page Overrides */
+
+#DomainsList li, #TemplatesList li, #ARecordPoolList li, #AAAAPoolList li, #CNamePoolList li, #GeoFiltersList li, #VanityNameserverList li, #GeoProximityList li, #UncommitedDomainsList li, #DetailsList li, #TemplateDetailsList li, #DetailsListDomains li
+{
+	margin-left:10px;
+	margin-right:10px;
+	border:1px solid #ccc;
+	margin-bottom:5px !important;
+	height:80px;
+}
+
+#DomainsList li
+{
+	height:90px;
+}
+
+#TemplatesList li
+{
+	 height:90px;
+}
+
+#ARecordPoolList li, #AAAAPoolList li, #CNamePoolList li, #GeoFiltersList li, #VanityNameserverList li, #GeoProximityList li, #UncommitedDomainsList li, #DetailsList li{
+	height:120px;
+}
+
+
+#GeoProximityList li
+{
+	height:140px;
+}
+#DetailsList li
+{
+	height:50px;
+}
+
+#DetailsListDomains li
+{
+	height:50px;
+	margin-bottom:20px !important;
+}
+
+#DomainSettingsList li
+{
+	height:50px;
+}
+
+#TemplateDetailsList li
+{
+	height:50px;	
+}
+
+.ui-btn-a:hover
+{
+	background:#0F0;
+}
+
+#DomainSettingsList a
+{
+	text-decoration:none;
+}
+
+.ui-listview > .ui-li-static
+{
+	padding:0px;
+	margin-bottom:0px;
+}
+#DomainSettingsList li
+{
+	margin-bottom:3px;	
+}
+#DomainSettingsList a
+{
+	color:#00793e;
+}
+
+.ui-body-c, .ui-body-a
+{
+	background-color:#eee;
+}
+.ui-body-c
+{
+	background-color:#FFF;
+}
+
+html .ui-body-b .ui-btn
+{
+	color:#00793e;
+}
+
+#RecentlyUpdatedDomains ul > li a, #UncommitedDomains ul > li a
+{
+	color:#333333;
+}
+
+.ui-collapsible-heading-collapsed > .ui-collapsible-heading-toggle{
+    background:red;
+}
+
+.ui-collapsible-heading-toggle{
+    background:yellow;
+}
+
+/* 
+	Menu Bar overrides.
+*/
+
+#LandingDivPanel .ui-btn:active
+{
+	background-color:#00793e;
+}
+#LandingDivPanel .ui-btn:hover a
+{
+	color:#FFF;
+}
+
+/*
+.ui-collapsible-heading-collapsed > .ui-collapsible-heading-toggle
+{
+    background:red;
+}
+
+.ui-collapsible-heading-toggle{
+    background:yellow;
+}
+*/
+
+/* collapsible list homescreen */
+#RecentlyUpdatedDomains .ui-btn, #UncommitedDomains .ui-btn, #AdvancedDomainSettings .ui-btn
+{
+	color:#00793e;
+}
+
+
+/* Active state homepage buttons */
+
+#RecentlyUpdatedDomains .ui-btn:active, #UncommitedDomains .ui-btn:active, #AdvancedDomainSettings .ui-btn:active
+{
+	color:#fff;
+	background-color:#00793e;
+}
+
+#DomainNames .ui-btn:active, #UncommitedDomainsNames .ui-btn:active, #DomainSettingsList .ui-btn:active
+{
+	background-color:#FFF;
+	color:#000;
+}
+#AllDomainsJumpButton .ui-btn:active, #UncommitedDomainsJumpButton .ui-btn:active
+{
+	background-color:#0A5C33;
+	color:#FFF;
+}
+
+
+/*  Active state homepage button ending here */
+
+#LandingDivPanel ul li, #LandingAccordins ul li
+{
+	height:60px;	
+}
+
+#LandingAccordins #UncommitedDomains ul li
+{
+	height:105px;
+}
+#LandingAccordins ul li
+{
+	height:80px;
+}
+
+.listItemNoIcon .ui-icon
+{
+
+ display: none;
+
+}
+
+.ui-panel-inner
+{
+	background-color:#eee;
+}
+
+[data-role="navbar"] ul li a {
+    color: #FFF !important;
+}
+
+.divBeforeList
+{
+	background-color:#FFF;
+	border:2px solid #eee;
+}
+
+
+#AddTemplateSection input, #ARecordPoolFormFields input, #AAAAPoolFormFields input, #CNamePoolFormFields input, #AddGeoProximitySection input, #VanityNSFormFields input, .recordWrap input, #MXRecordContent input, #SRVRecordContent input, #RecordContent input{
+	height:40px;
+	background-color:#eee;
+	border:1px solid #ccc;
+}
+#AddTemplateSection, #ARecordPoolFormFields, #AAAAPoolFormFields, #CNamePoolFormFields, #AddGeoProximitySection, #VanityNSFormFields, .recordWrap, #MXRecordContent, #SRVRecordContent, #RecordContent
+{
+	margin-left:10px;
+	margin-right:10px;
+}
+.recordWrap label, .mxWrapContent label, .recordWrapContent label, .srvWrapContent label
+
+{
+	border:none !important;
+}
+
+.recordWrap .ui-controlgroup-horizontal .ui-radio input
+{
+	left:0%;
+	margin-left:8px;
+	margin-top:-18px;
+	z-index:8;
+}
+
+/* swatch D overrides */
+
+.ui-navbar ul
+{
+	bottom:-2px;
+}
+
+#DomainRecords
+{
+	color: #036d38;
+}
+
+#AdvancedSettingsAccordins
+{
+	margin-top:15px;
+}
+
+#IPForm label, #RoundRobinForm label, #FailoverForm label
+{
+	width:30px;
+}
+#UncommitedRecords
+{
+	
+	background-color:#fcf8e3;
+	border:1px solid #faebcc;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	margin-bottom:10px;
+	font-weight:normal !important;
+	padding:5px;
+	margin-right:-5px;
+	margin-left:-5px;
+	display:none;
+}
+
+#UncommitedRecords a
+{
+	font-size:16px;
+	color:#8a6d3b;
+	text-shadow:none;
+	text-decoration:none !important;
+	font-weight:normal !important;
+}
+
+#linkToReviewScreen 
+{
+	color:#8a6d3b;
+}
+.warningMessage
+{
+	background-color: #fcf8e3;
+	color: #8a6d3b;
+	border: 1px solid #faebcc;
+	border-radius: 4px 4px 0 0;
+	height: 100%;
+	/* text-align: center; */
+	box-shadow: none;
+	margin: 5px;
+	margin-left:0px !important;
+	/* margin-right: 20px !important; */
+	font-weight: normal;
+	border-radius: 5px;
+	text-align:center;
+	margin-right:8px !important;
+}
+.warningMessage span
+{
+	
+}
+
+.uncommitedWarning 
+{
+	  margin-top:5px;
+	  padding:2px;
+	  background: url(../img/warning.png) no-repeat;
+	  background-size: 20px 20px;
+	  padding-left: 30px;
+
+}
+.uncommitedWarning span
+{
+	margin-left:-2px;
+	color: #31708f;
+}
+
+#changeIDundefined
+{
+	display:none;
+}
+
+.checkboxStandard
+{
+	float:right;
+	margin-top:-40px !important;
+	margin-left:-30px !important;
+}
+.checkboxStandard .ui-checkbox
+{
+	display:inline-block !important;
+	
+}
+.checkboxStatus
+{
+	margin-top:3px;
+}
+
+#IPForm input[type=checkbox]
+{
+	margin-top:-17px;
+}
+
+#IPForm .ui-grid-a
+{
+	overflow:inherit;
+}
