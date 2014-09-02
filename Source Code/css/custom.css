@@ -4,3 +4,29 @@
 	font-weight:bold;
 	color:#03C;
 }
+
+.mealRow
+{
+	background-color:#0000FF;
+	height:30px;
+	margin:20px 0px;
+	
+}
+
+.mealText
+{
+	width:65%;
+	color:#FFFFFF;
+	padding:10px;
+	margin:10px;
+	font-size:20px;
+}
+
+.mealRating {
+	width: 30%;
+	background-color: #FFFFFF;
+	float: right;
+	margin-right: 35px;
+	padding: 5px;
+	text-align:center;
+}
