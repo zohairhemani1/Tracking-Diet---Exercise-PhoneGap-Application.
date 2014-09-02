@@ -2,14 +2,14 @@
 {
 	text-align:center;
 	font-weight:bold;
-	color:#03C;
+	color:#0d79c0;
 }
 
 .mealRow
 {
-	background-color:#0000FF;
+	background-color:#0d79c0;
 	height:30px;
-	margin:20px 0px;
+	margin:10px 0px;
 	
 }
 
@@ -26,7 +26,31 @@
 	width: 30%;
 	background-color: #FFFFFF;
 	float: right;
-	margin-right: 35px;
+	margin-right: 20px;
 	padding: 5px;
 	text-align:center;
+}
+
+.exercise
+{
+	margin-top:30px;
+}
+
+.notes
+{
+	
+}
+
+textarea.ui-input-text.ui-body-b.ui-corner-all.ui-shadow-inset
+{
+	margin:0px;
+}
+
+.ui-bar-a, .ui-page-theme-a .ui-bar-inherit, html .ui-bar-a .ui-bar-inherit, html .ui-body-a .ui-bar-inherit, html body .ui-group-theme-a .ui-bar-inherit{
+	background-color: #0d79c0 /*{a-bar-background-color}*/;
+}
+
+div#contentpanel
+{
+	margin-top:25px;
 }
