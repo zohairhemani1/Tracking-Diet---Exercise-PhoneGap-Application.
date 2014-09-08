@@ -418,13 +418,12 @@ h4 img {
 	border-top-width:0px;
 	border-bottom-width:0px;
 }
+.ui-body-b {
+	border-bottom: 3px solid ;
+    color: #0d79c0;
 
-.ui-body-b
-{
-	background-color:#eeeeee;
-	border-width:0px;
-}
-
+	}
+	
 /* Bars icon for header. */
 .ui-icon-mybars {
 	background-image: url(../img/menubars.png);

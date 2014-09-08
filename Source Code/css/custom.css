@@ -5,23 +5,27 @@ table {
 
 #todaysDate
 {
-	text-align:center;
-	font-weight:bold;
-	color:#0d79c0;
-	margin:20px;
+	border-top: 3px solid;
+    color: #0d79c0;
+    font-weight: bold;
+    margin: 17px 447px;
+    text-align: center;
+    width: 310px;
 }
 
 .mealRow
 {
-	background-color:#0d79c0;
-	height:30px;
-	margin:10px 0px;
-	
+    background-color: #0d79c0;
+    height: 43px;
+    margin: 17px 6px;	
 }
-
+ @media screen and (max-width:480px) {
+       .mealtext { display: none;}
+        }
+  
 .mealText
 {
-	width:65%;
+	width:70%;
 	color:#FFFFFF;
 	padding:10px;
 	margin:10px;
@@ -35,8 +39,31 @@ table {
 	margin-right: 20px;
 	padding: 5px;
 	text-align:center;
+	margin-top:-2px;
+	height:35px;
 }
-
+.resultRating1{
+    background-color: #ffffff;
+    float: right;
+    margin-right: 84%;
+    margin-top: -41px;
+    padding: 4px;
+    text-align: center;
+    width: 2%;
+}
+.resultRating2{
+    background-color: #ffffff;
+    float: right;
+    margin-right: 76%;
+    margin-top: -41px;
+    padding: 4px;
+    text-align: center;
+    width: 2%;
+}
+.blue{
+	color:#0d79c0;
+	margin-left:12px;
+}
 .exercise
 {
 	margin-top:30px;
@@ -45,6 +72,10 @@ table {
 .notes
 {
 	
+}
+.resultRow{
+	height:25px;
+	margin:10px 13px;
 }
 
 textarea.ui-input-text.ui-body-b.ui-corner-all.ui-shadow-inset
@@ -58,7 +89,7 @@ textarea.ui-input-text.ui-body-b.ui-corner-all.ui-shadow-inset
 
 div#contentpanel
 {
-	margin-top:25px;
+	margin-top:-10px;
 }
 
 .mealRating img
@@ -107,7 +138,8 @@ tr#days
 
 .selected
 {
-	background-color:#e9e9e9;	
+	background-color:#e9e9e9;
+	border-bottom:#fbbc41;	
 }
 
 .today_border

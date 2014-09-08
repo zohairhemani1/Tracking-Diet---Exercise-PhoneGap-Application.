@@ -6,6 +6,7 @@
 	content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 <meta name="format-detection" content="telephone=no">
 <meta name="msapplication-tap-highlight" content="no" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="css/constellix.css" />
 <link rel="stylesheet" href="css/jquery.mobile.icons.min.css" />
 <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile.structure-1.4.2.min.css" />
@@ -14,6 +15,18 @@
 <script src="js/lib/jquery-1.9.1.min.js"></script>
 <script src="js/lib/jquery.mobile-1.3.1.min.js"></script>
 <script src="js/main.js"></script>
+<script language="javascript">
+ function changeImage(element) {
+     element.src = element.bln ? "img/like.png" : "img/1.jpg";
+     element.bln = !element.bln;  
+ }
+ </script>
+ <script language="javascript">
+  function updateImage(element) {
+     element.src = element.bln ? "img/dislike.png" : "img/2.jpg";
+     element.bln = !element.bln;  
+ }
+ </script>
 
 </head>
 <body>
@@ -52,50 +65,50 @@
       <div class="mealRow">
         <span class="mealText">Meal 1</span>
         <span class="mealRating">
-            <img src="img/like.png" width="20"/>
-            <img src="img/dislike.png" width="20"/>
+            <img src="img/like.png" width="25" height="28" id="Changer" onclick="changeImage(this)" />
+            <img src="img/dislike.png" width="25" height="28" id="Changer" onclick="updateImage(this)" />
         </span>
       </div>
       <div class="mealRow">
         <span class="mealText">Meal 2</span>
         <span class="mealRating">
-            <img src="img/like.png" width="20"/>
-            <img src="img/dislike.png" width="20"/>
+            <img src="img/like.png" width="25" height="28" id="Changer" onclick="changeImage(this)"/>
+            <img src="img/dislike.png" width="25" height="28" id="Changer" onclick="updateImage(this)"/>
         </span>
       </div>
       <div class="mealRow">
         <span class="mealText">Meal 3</span>
         <span class="mealRating">
-            <img src="img/like.png" width="20"/>
-            <img src="img/dislike.png" width="20"/>
+            <img src="img/like.png" width="25" height="28" id="Changer" onclick="changeImage(this)"/>
+            <img src="img/dislike.png" width="25" height="28" id="Changer" onclick="updateImage(this)" />
         </span>
       </div>
       <div class="mealRow">
         <span class="mealText">Meal 4</span>
         <span class="mealRating">
-            <img src="img/like.png" width="20"/>
-            <img src="img/dislike.png" width="20"/>
+            <img src="img/like.png" width="25" height="28" id="Changer" onclick="changeImage(this)"/>
+            <img src="img/dislike.png" width="25" height="28" id="Changer" onclick="updateImage(this)" />
         </span>
       </div>
       <div class="mealRow">
         <span class="mealText">Meal 5</span>
         <span class="mealRating">
-            <img src="img/like.png" width="20"/>
-            <img src="img/dislike.png" width="20"/>
+            <img src="img/like.png" width="25" height="28" id="Changer" onclick="changeImage(this)"/>
+            <img src="img/dislike.png" width="25" height="28" id="Changer" onclick="updateImage(this)" />
         </span>
       </div>
       <div class="mealRow">
         <span class="mealText">Meal 6</span>
         <span class="mealRating">
-            <img src="img/like.png" width="20"/>
-            <img src="img/dislike.png" width="20"/>
+            <img src="img/like.png" width="25" height="28" id="Changer" onclick="changeImage(this)"/>
+            <img src="img/dislike.png" width="25" height="28" id="Changer" onclick="updateImage(this)"/>
         </span>
       </div>
       <div class="mealRow exercise">
         <span class="mealText">Exercise</span>
         <span class="mealRating">
-            <img src="img/like.png" width="20"/>
-            <img src="img/dislike.png" width="20"/>
+            <img src="img/like.png" width="25" height="28" id="Changer" onclick="changeImage(this)"/>
+            <img src="img/dislike.png" width="25" height="28" id="Changer" onclick="updateImage(this)"/>
         </span>
       </div>
       <div class="notes">
@@ -123,13 +136,90 @@
 <!-- Start of Domains List page -->
 <div data-role="page" id="stats" data-theme="a" data-content-theme="b">
   <div data-role="header" data-theme="a" data-position="fixed">
+
     <h1>Statistics</h1>
   </div>
   <div data-role="content" id="DomainsListContent">
     <center>
-      <h2>DOMAINS LIST</h2>
+      <h2>SO LET'S SEE HOW YO'VE DONE.....</h2>
     </center>
   </div>
+  <div class="mealRow">
+        <span class="mealText">Past 7 Days</span>
+        <span class="mealRating">
+            <img src="img/like.png" width="25" height="28" />
+            <img src="img/dislike.png" width="25" height="28" />
+        </span>
+        </div>
+      <div class="resultRow">
+      <h3 class="blue">Excercise</h3>
+      <span class="resultRating1">
+            <img src="img/like.png" width="15" height="15" />
+            </span>
+            <span class="resultRating2">
+            <img src="img/dislike.png" width="15" height="15" />
+        </span>
+</span>        </div>
+<div class="resultRow">
+      <h3 class="blue">Meal</h3>
+      <span class="resultRating1">
+            <img src="img/like.png" width="15" height="15" />
+            </span>
+            <span class="resultRating2">
+            <img src="img/dislike.png" width="15" height="15" />
+        </span>
+</span>        </div>
+<div class="mealRow">
+        <span class="mealText">Past Month</span>
+        <span class="mealRating">
+            <img src="img/like.png" width="25" height="28" />
+            <img src="img/dislike.png" width="25" height="28" />
+        </span>
+      </div>
+
+      <div class="resultRow">
+      <h3 class="blue">Excercise</h3>
+      <span class="resultRating1">
+            <img src="img/like.png" width="15" height="15" />
+            </span>
+            <span class="resultRating2">
+            <img src="img/dislike.png" width="15" height="15" />
+        </span>
+</span>        </div>
+<div class="resultRow">
+      <h3 class="blue">Meal</h3>
+      <span class="resultRating1">
+            <img src="img/like.png" width="15" height="15" />
+            </span>
+            <span class="resultRating2">
+            <img src="img/dislike.png" width="15" height="15" />
+        </span>
+</span>        </div>
+<div class="mealRow">
+        <span class="mealText">Past Year</span>
+        <span class="mealRating">
+            <img src="img/like.png" width="25" height="28" />
+            <img src="img/dislike.png" width="25" height="28" />
+        </span>
+        </div>
+      <div class="resultRow">
+      <h3 class="blue">Excercise</h3>
+      <span class="resultRating1">
+            <img src="img/like.png" width="15" height="15" />
+            </span>
+            <span class="resultRating2">
+            <img src="img/dislike.png" width="15" height="15" />
+        </span>
+</span>        </div>
+<div class="resultRow">
+      <h3 class="blue">Meal</h3>
+      <span class="resultRating1">
+            <img src="img/like.png" width="15" height="15" />
+            </span>
+            <span class="resultRating2">
+            <img src="img/dislike.png" width="15" height="15" />
+        </span>
+</span>        </div>
   <div data-role="footer" data-theme="c" data-position="fixed">
     <div data-role="navbar" data-theme="c" >
       <ul class="footerUL">
